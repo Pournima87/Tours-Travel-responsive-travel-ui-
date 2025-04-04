@@ -18,7 +18,18 @@ Features an animated login form, engaging video backgrounds, and a clean UI desi
 - **JavaScript** – Interactivity and UI logic
 
 ## 📸 Screenshots
-
+![WhatsApp Image 2025-04-04 at 3 35 10 PM (1)](https://github.com/user-attachments/assets/e67d305f-0387-43a4-940a-3e82499e1bd1)
+![WhatsApp Image 2025-04-04 at 3 35 10 PM](https://github.com/user-attachments/assets/952d61e1-5154-4cb6-a7b9-138521607a05)
+![WhatsApp Image 2025-04-04 at 3 35 09 PM (4)](https://github.com/user-attachments/assets/a2c1881a-55f8-44d0-96f7-d599ea24638e)
+![WhatsApp Image 2025-04-04 at 3 35 09 PM (3)](https://github.com/user-attachments/assets/b887e600-b375-44ad-9928-36d483633c51)
+![WhatsApp Image 2025-04-04 at 3 35 09 PM (2)](https://github.com/user-attachments/assets/86ab771f-50e7-4408-8685-42ed50025b45)
+![WhatsApp Image 2025-04-04 at 3 35 09 PM (1)](https://github.com/user-attachments/assets/4ac64c10-dc5a-4731-8ddc-15a32bb668f0)
+![WhatsApp Image 2025-04-04 at 3 35 09 PM](https://github.com/user-attachments/assets/73f74a55-e581-4fda-b3a9-895d44f5ae26)
+![WhatsApp Image 2025-04-04 at 3 35 08 PM (2)](https://github.com/user-attachments/assets/f7364b44-b645-41ce-9fa2-10dfddcb98c3)
+![WhatsApp Image 2025-04-04 at 3 35 08 PM (1)](https://github.com/user-attachments/assets/a91736ac-9313-4d12-83d7-86dd8dbebd33)
+![WhatsApp Image 2025-04-04 at 3 35 08 PM](https://github.com/user-attachments/assets/9a61a544-0613-4148-97bc-62d7ed6b966a)
+![WhatsApp Image 2025-04-04 at 3 35 07 PM (1)](https://github.com/user-attachments/assets/cb86090f-8c9f-4adc-b667-1238b5203411)
+![WhatsApp Image 2025-04-04 at 3 35 07 PM](https://github.com/user-attachments/assets/9c553519-0243-4f15-8074-c43afec1a23d)
 
 ## 🗂️ Folder Structure
 project-folder/ │ ├── index.html ├── style.css ├── script.js └── images/ <-- Folder ignored due to size
