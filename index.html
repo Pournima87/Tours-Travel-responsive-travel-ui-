@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours and Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+
+        <a href="#" class="logo">
+        <span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search Here....">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action=""> 
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="Login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>forget password? <a href="#">Click here</a></p>
+            <p>don't have and account? <a href="#">Register now</a></p>
+        </form>
+    </div>
+    <section class="Home" id="home">
+        <div class="content">
+            <h3>
+            Adventure is Worthwhile
+            </h3>
+            <p>
+            Discover new Places with us, Adventure Awaits
+            </p>
+            <a href="#" class="btn"> Discover More</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="Images/Nature.mp4"></span>
+            <span class="vid-btn" data-src="Images/beach.mp4"></span>
+            <span class="vid-btn" data-src="Images/city.mp4"></span>
+            <span class="vid-btn" data-src="Images/hills.mp4"></span>
+            <span class="vid-btn" data-src="Images/sunset.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="Images/Nature.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>B</span>
+            <span>O</span>
+            <span>O</span>
+            <span>K</span>
+            <span class="space"></span>
+            <span>N</span>
+            <span>O</span>
+            <span>W</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="Images/image1.jpg" alt="">
+            </div>
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                <div class="inputbox">
+                    <h3>Where to go</h3>
+                    <input type="text" name="place_name" class="place_name" placeholder="Place Name">
+                </div>
+                <div class="inputbox">
+                    <h3>How Many</h3>
+                    <input type="number" name="travellers_num" class="travellers_num" placeholder="Number of Travellers">
+                </div>
+                <div class="inputbox">
+                    <h3>Arrivals</h3>
+                    <input type="date" name="arrival_date" class="arrival_date">
+                </div>
+                <div class="inputbox">
+                    <h3>Return</h3>
+                    <input type="date" name="return_date" class="return_date">
+                </div>
+                <input type="submit" name="submit" class="btn" value="BOOK NOW">
+            </form>
+        </div>
+    </section>
+
+    <section class="Packages" id="packages">
+        <h1 class="heading">
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>K</span>
+            <span>A</span>
+            <span>G</span>
+            <span>E</span>
+            <span>S</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/agra.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>AGRA</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam, a, numquam, laudantium blanditiis nesciunt iusto illo esse voluptates necessitatibus doloribus? Eos nemo reprehenderit possimus, perspiciatis quos vel dicta iure.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹15,000 <span> ₹20,000 </span></div>
+                    <a href="#" class="btn">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/amritsar.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>AMRITSAR</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam, a, numquam, laudantium blanditiis nesciunt iusto illo esse voluptates necessitatibus doloribus? Eos nemo reprehenderit possimus, perspiciatis quos vel dicta iure.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹25,000 <span> ₹30,000 </span></div>
+                    <a href="#" class="btn">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/himachal pradesh.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>HIMACHAL PRADESH </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam, a, numquam, laudantium blanditiis nesciunt iusto illo esse voluptates necessitatibus doloribus? Eos nemo reprehenderit possimus, perspiciatis quos vel dicta iure.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹35,000 <span> ₹40,000 </span></div>
+                    <a href="#" class="btn">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/jaipur.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>JAIPUR</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam, a, numquam, laudantium blanditiis nesciunt iusto illo esse voluptates necessitatibus doloribus? Eos nemo reprehenderit possimus, perspiciatis quos vel dicta iure.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹20,000 <span> ₹30,000 </span></div>
+                    <a href="#" class="btn">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/kerala.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>KERALA</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam, a, numquam, laudantium blanditiis nesciunt iusto illo esse voluptates necessitatibus doloribus? Eos nemo reprehenderit possimus, perspiciatis quos vel dicta iure.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹45,000 <span> ₹50,000 </span></div>
+                    <a href="#" class="btn">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/mysuru.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>MYSUR</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam, a, numquam, laudantium blanditiis nesciunt iusto illo esse voluptates necessitatibus doloribus? Eos nemo reprehenderit possimus, perspiciatis quos vel dicta iure.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹35,000 <span> ₹40,000 </span></div>
+                    <a href="#" class="btn">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="JavaScript/script.js"></script>
+</body>
+</html>
