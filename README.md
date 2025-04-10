@@ -17,6 +17,10 @@ Features an animated login form, engaging video backgrounds, and a clean UI desi
 - **CSS3** – Styling and animations
 - **JavaScript** – Interactivity and UI logic
 
+## 🎥 Project Demo
+Check out the live walkthrough of the project below:
+https://github.com/user-attachments/assets/00b42be1-41fa-42ed-b665-82ac94770c79
+
 ## 📸 Screenshots
 ![WhatsApp Image 2025-04-04 at 3 35 10 PM (1)](https://github.com/user-attachments/assets/e67d305f-0387-43a4-940a-3e82499e1bd1)
 ![WhatsApp Image 2025-04-04 at 3 35 10 PM](https://github.com/user-attachments/assets/952d61e1-5154-4cb6-a7b9-138521607a05)
