@@ -19,7 +19,7 @@ Features an animated login form, engaging video backgrounds, and a clean UI desi
 
 ## 🎥 Project Demo
 Check out the live walkthrough of the project below:
-https://github.com/user-attachments/assets/00b42be1-41fa-42ed-b665-82ac94770c79
+https://github.com/user-attachments/assets/bfc61ee3-bcaa-4bf5-b7c2-46df49e10c57
 
 ## 📸 Screenshots
 ![WhatsApp Image 2025-04-04 at 3 35 10 PM (1)](https://github.com/user-attachments/assets/e67d305f-0387-43a4-940a-3e82499e1bd1)
